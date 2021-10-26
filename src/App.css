@@ -36,3 +36,13 @@
     transform: rotate(360deg);
   }
 }
+
+.App img{
+  height: 200px;
+}
+
+.card{
+  border: thin solid black;
+  margin: 20px;
+  height: 350px;
+}
