@@ -9,10 +9,10 @@ class Main extends Component{
     render(){
         return(
             <main>
-                <Row xs = {1} md = {2} lg = {3}>
+                <Row >
                     {Array.from({ length: 1}).map((_, idx) => (
                     <Col>
-                        {data.map(element => <Hornedbeasts{...element}/>)}
+                        {data.map(element => <Hornedbeasts key = {element.title} handleClick = {this.props.handleClick} beast = {element}/>)}
                     </Col>
                     ))}
                 </Row>
