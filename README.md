@@ -95,5 +95,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 ### Feature #1: Display a Modal:
 - Estimate of time needed to complete: 50 mins
 - Start Time: 12:46pm
-- End Time: 
-- Actual Time: 
+- End Time: 2:10 pm
+- Actual Time: 1hr 10mins
