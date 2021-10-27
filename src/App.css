@@ -38,7 +38,8 @@
 }
 
 .App img{
-  height: 150px;
+  object-fit: contain;
+  height: 160px;
 }
 
 .card{
@@ -47,4 +48,8 @@
   vertical-align: top;
   margin: 20px;
   height: 350px;
+}
+
+.modal-body img{
+  width: 450px
 }

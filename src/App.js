@@ -11,22 +11,29 @@ export default class App extends Component {
     this.state = {
       show: false,
       clickedBeastImg : '',
-      clickedBeastDes : '',
+      clickedDescription : '',
       clickedBeastTitle : '',
     }
   }
 
-  handleClick = () =>{
+  handleClick = (beast) =>{
+    this.setState({show:true});
+    this.setState({clickedDescription : beast.description});
+    this.setState({clickedBeastImg : beast.image_url});
+    this.setState({clickedBeastTitle: beast.title});
+  }
 
+  handleClose = () =>{
+    this.setState({show:false});
   }
 
   render(){
     return (
       <div className="App">
         <Header/>
-        <Main/>
+        <Main handleClick = {this.handleClick}/>
         <Footer/>
-        <SelectedBeast show = {this.state.show} clickBeastDes = {this.state.clickedBeastDes} clickedBeastImg = {this.state.clickedBeastImg} clickedBeastTitle ={ this.state.clickedBeastTitle}/>
+        <SelectedBeast show = {this.state.show} handleClose = {this.handleClose} clickedDescription = {this.state.clickedDescription} clickedBeastImg = {this.state.clickedBeastImg} clickedBeastTitle ={ this.state.clickedBeastTitle}/>
 
   
       </div>
