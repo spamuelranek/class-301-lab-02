@@ -85,5 +85,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 ### Feature #3: Bootstrap:
 - Estimate of time needed to complete: 40 mins
 - Start Time: 2:28pm
-- End Time: 
-- Actual Time: 10 mins
+- End Time: 5:24pm 
+- Actual Time: 3hrs but I did the code challenge inside this time frame

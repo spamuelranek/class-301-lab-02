@@ -38,11 +38,13 @@
 }
 
 .App img{
-  height: 200px;
+  height: 150px;
 }
 
 .card{
   border: thin solid black;
+  display: inline-block;
+  vertical-align: top;
   margin: 20px;
   height: 350px;
 }
