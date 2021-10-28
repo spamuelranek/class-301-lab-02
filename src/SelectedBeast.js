@@ -7,18 +7,17 @@ export default class SelectedBeast extends Component{
 
     handleClose = () => {
         this.props.handleClose();
-        console.log(this.props.clickedBeastTitle);
     }
 
     render(){
         return(
             <Modal show ={this.props.show} onHide={this.handleClose}>
                 <Modal.Header closeButton>
-                    <Modal.Title>{this.props.clickedBeastTitle}</Modal.Title>
+                    <Modal.Title>{this.props.beast.title}</Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
-                    <img src ={this.props.clickedBeastImg} alt = {this.props.clickedDescription}/>
-                    <p>{this.props.clickedDescription}</p>
+                    <img src ={this.props.beast.img_url} alt = {this.props.beast.description}/>
+                    <p>{this.props.beast.description}</p>
                 </Modal.Body>
                 <Modal.Footer>
                     <Button variant="secondary" onClick = {this.handleClose}>Close</Button>

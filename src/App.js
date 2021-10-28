@@ -11,17 +11,17 @@ export default class App extends Component {
     super(props);
     this.state = {
       show: false,
-      clickedBeastImg : '',
-      clickedDescription : '',
-      clickedBeastTitle : '',
+      beast:{}
     }
   }
 
-  handleClick = (beast) =>{
+  handleClick = (beastChild) =>{
+    this.setState({beast:beastChild});
+    this.showModal();
+  }
+
+  showModal = () =>{
     this.setState({show:true});
-    this.setState({clickedDescription : beast.description});
-    this.setState({clickedBeastImg : beast.image_url});
-    this.setState({clickedBeastTitle: beast.title});
   }
 
   handleClose = () =>{
@@ -34,7 +34,7 @@ export default class App extends Component {
         <Header/>
         <Main data = {data} handleClick = {this.handleClick}/>
         <Footer/>
-        <SelectedBeast show = {this.state.show} handleClose = {this.handleClose} clickedDescription = {this.state.clickedDescription} clickedBeastImg = {this.state.clickedBeastImg} clickedBeastTitle ={ this.state.clickedBeastTitle}/>
+        <SelectedBeast show = {this.state.show} handleClose = {this.handleClose} beast = {this.state.beast}/>
 
   
       </div>

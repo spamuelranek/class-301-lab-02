@@ -1,3 +1,40 @@
+## Lab 2
+
+### Feature #1: Display Images:
+- Estimate of time needed to complete: 30 mins
+- Start Time: 1:36pm
+- End Time: 2:15pm
+- Actual Time: 44 mins
+
+### Feature #2: Allow users to vote for their favorite beast:
+- Estimate of time needed to complete: 40 mins
+- Start Time: 2:17pm
+- End Time: 2:27pm
+- Actual Time: 10 mins
+
+### Feature #3: Bootstrap:
+- Estimate of time needed to complete: 40 mins
+- Start Time: 2:28pm
+- End Time: 5:24pm 
+- Actual Time: 3hrs but I did the code challenge inside this time frame
+
+## Lab 3
+
+### Feature #1: Display a Modal:
+- Estimate of time needed to complete: 50 mins
+- Start Time: 12:46pm
+- End Time: 2:10 pm
+- Actual Time: 1hr 10mins
+
+## Lab 4
+
+### Feature #1 Filter by Numbers of Horns
+- Estimate of time needed to complete: 1 hr
+- Start Time: 2:33pm
+- End Time: 4:13pm
+- Actual Time: 2hrs 40mins
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -69,31 +106,3 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
-
-## Lab 2
-
-### Feature #1: Display Images:
-- Estimate of time needed to complete: 30 mins
-- Start Time: 1:36pm
-- End Time: 2:15pm
-- Actual Time: 44 mins
-
-### Feature #2: Allow users to vote for their favorite beast:
-- Estimate of time needed to complete: 40 mins
-- Start Time: 2:17pm
-- End Time: 2:27pm
-- Actual Time: 10 mins
-
-### Feature #3: Bootstrap:
-- Estimate of time needed to complete: 40 mins
-- Start Time: 2:28pm
-- End Time: 5:24pm 
-- Actual Time: 3hrs but I did the code challenge inside this time frame
-
-## Lab 3
-
-### Feature #1: Display a Modal:
-- Estimate of time needed to complete: 50 mins
-- Start Time: 12:46pm
-- End Time: 2:10 pm
-- Actual Time: 1hr 10mins

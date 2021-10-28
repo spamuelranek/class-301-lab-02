@@ -6,7 +6,6 @@ class Hornedbeasts extends Component{
     constructor(props){
         super(props);
         this.state ={
-            beast:this.props.beast,
             numberOfHorns:this.props.beast.horns,
             keywords: this.props.beast.keywords,
             numOfClicks : 0,
@@ -14,8 +13,7 @@ class Hornedbeasts extends Component{
     }
 
     pictureClick = () =>{
-        let beast = this.state.beast
-        console.log(beast.description);
+        let beast = this.props.beast
         this.props.handleClick(beast);
     }
 
@@ -31,7 +29,7 @@ class Hornedbeasts extends Component{
                       <Card.Body>
                           <Card.Text>
                               {this.props.beast.description}</Card.Text>
-                          <Button onClick ={this.handleClick}>a heart: {this.state.numOfClicks} </Button>
+                          <Button onClick ={this.handleClick}> ❤️  : {this.state.numOfClicks} </Button>
                       </Card.Body>
               </Card>
         )
