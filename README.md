@@ -1,3 +1,17 @@
+## Project Overview:
+- Design and Create a website that can render a series of objects
+  - Needs to have a Main Component
+  - Needs to have a HornBeasts component
+  - Import data.json for ojects
+
+- Create a modal pop up for any of the rendered object
+  - Needs to be a direct child of the App component
+  - New component named Selected Beasts
+  - Have the state defined in App component
+
+- Filter the rendered objects on the page by a specific property
+  - Needs to filter by number of horns
+
 ## Lab 2
 
 ### Feature #1: Display Images:
